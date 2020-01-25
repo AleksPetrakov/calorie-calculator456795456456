@@ -1,10 +1,12 @@
 import * as $ from 'jquery';
 import calorie from './js/calorie';
 import fatsecret from './js/fatsecret';
-require('./css/style.css');
+import './css/style.css';
 
-var calorieModule = new calorie();
+const calorieModule = new calorie();
+const fatsecretModule = new fatsecret();
 
 $('button').click(() => {
   calorieModule.show();
+  fatsecretModule.searchFood('apple');
 });

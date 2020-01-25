@@ -2,7 +2,7 @@
 import hmacsha1 from 'hmacsha1';
 import { stringify } from 'query-string';
 
-function fatsecret() {
+export default function fatsecret() {
   const API_PATH = 'https://platform.fatsecret.com/rest/server.api';
   const ACCESS_KEY = 'YOUR_ACCESS_KEY';
   const APP_SECRET = 'YOUR_APP_SECRET';
@@ -59,5 +59,3 @@ function fatsecret() {
     return response.json();
   }
 }
-
-module.exports = fatsecret;
