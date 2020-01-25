@@ -1,2 +1,4 @@
 # calorie-calculator
-Short html page which helps to count your daily food calorie
+Short html page which helps to count your daily food calorie.
+Of course, this is just the first version, so it is made quickly and in one file, therefore, it uses last versions of Bootstrap and Jquery. Many thanks to the people who invented the CDN (Content Delivery Network).
+I am going to develop this project by adding new functionality and dividing everything into modules.
