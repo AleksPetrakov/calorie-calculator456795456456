@@ -1,6 +1,7 @@
+import * as $ from 'jquery';
+import calorie from './js/calorie';
+import fatsecret from './js/fatsecret';
 require('./css/style.css');
-var $ = require('jquery');
-var calorie = require('./js/calorie.js');
 
 var calorieModule = new calorie();
 
