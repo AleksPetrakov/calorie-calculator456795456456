@@ -1,0 +1,12 @@
+.form-control {
+  max-width: 500px;
+  display: inline-block;
+  margin: 5px 0;
+}
+#result {
+  display: none;
+}
+
+#result.opened {
+  display: block;
+}
