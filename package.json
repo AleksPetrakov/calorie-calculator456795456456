@@ -23,7 +23,7 @@
     "hmacsha1": "^1.0.0",
     "jquery": "^3.4.1",
     "query-string": "^6.10.1",
-    "underscore": "^1.9.2",
+    "underscore": "^1.12.1",
     "webpack": "^4.41.5"
   },
   "devDependencies": {
